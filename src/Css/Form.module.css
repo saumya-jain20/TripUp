@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Raleway:ital@1&family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+textarea:focus,input:focus{
+    outline: none;
+}
+
+.div{
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    justify-content: center;
+    margin: 4vw;
+    margin-top: 8vw;
+    padding: 4vw;
+    /* padding-left: 6vw;
+    padding-right: 6vw; */
+    background: radial-gradient(97.06% 97.06% at 50% 2.94%, #C5D7E7 0%, rgba(197, 215, 231, 0.42) 100%);
+    border-radius: 25.0205px;
+    float: left;
+    color: #2B5D77;
+}
+
+.input[type=text], select {
+    width: 50%;
+    padding: 1vw 9.5vh;
+    padding-left: 2vh;
+    margin: 1vh 0vh;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background: #EDF3FD;
+}
+
+.from[type=text], select {
+    width: 50%;
+    padding: 1vw 9.8vh;
+    padding-left: 2vh;
+    margin: 1vh 0vh;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background: #EDF3FD;
+}
+
+.to[type=text], select {
+    width: 50%;
+    padding: 1vw 9.8vh;
+    padding-left: 2vh;
+    margin: 1vh 0vh;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background: #EDF3FD;
+}
+
+.in[type=text], select {
+    width: 50%;
+    padding: 1vw 9.5vh;
+    padding-left: 2vh;
+    margin: 1vh 0vh;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background: #EDF3FD;
+}
+
+.person[type=text], select {
+    width: 50%;
+    padding: 1vw 9.5vh;
+    padding-left: 2vh;
+    margin: 1vh 0vh;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background: #EDF3FD;
+}
+
+.lable{
+    background: #EDF3FD;
+    border-radius: 8.34016px;
+    padding: 1vw 2vh;
+}
+
+.button{
+    border: none;
+    background: #2B5D77;
+    border-radius: 8.34016px;
+    color: white;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+    font-size: 2vh;
+    cursor: pointer;
+    margin-top: 2vh;
+}
+
+.button:hover {    
+    box-shadow: 0px 15px 20px #2B5D77;
+    transform: translateY(-7px);
+}
+
+.span{
+    margin-top: 1vh;
+    text-align: center;
+}

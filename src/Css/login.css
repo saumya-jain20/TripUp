@@ -1,0 +1,168 @@
+#body{
+    background: url("../img/login3.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+}
+
+.main
+{
+	width: 500px;
+	height: 495px;
+	overflow: hidden;
+	/* background: rgba(255, 255, 255,0); */
+	backdrop-filter: blur(0px) saturate(134%);
+    -webkit-backdrop-filter: blur(0px) saturate(134%);
+    background-color: rgba(42, 65, 92, 0.9);
+	/* background-color: rgba(37, 65, 90,0.9); */
+    /* border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3); */
+	border-radius: 20px;
+	box-shadow: 5px 20px 50px #000;
+}
+
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+
+.span{
+	cursor: pointer;
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 50px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 50px;
+	font-weight: bold;
+	cursor: pointer;
+} */
+.input{
+	width: 60%;
+	height: 20px;
+	/* background: #a0f0d8; */
+	/* background-image: linear-gradient(to right bottom, #ffffff, #eff8ff, #d0f6ff, #aff4f8, #a0f0d8); */
+	/* background-image: linear-gradient(to right bottom, #eff5ff, #d2efff, #aaebff, #7de7f5); */
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 13px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+}
+.button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	/* background-image: linear-gradient(160deg, #8ceabb 0%, #378f7b 100%); */
+	/* background-image: linear-gradient(to right, #b6abd6, #aba2d0, #a099cb, #9490c5, #8888c0); */
+	/* background-image: linear-gradient(to right, #73639f, #786ca7, #7d75b0, #827fb8, #8888c0); */
+	/* background-image: linear-gradient(to right, #73639f, #7669a8, #7970b1, #7b76bb, #7d7dc4); */
+	/* background-image: linear-gradient(to right, #73639f, #735f9d, #725b9b, #725698, #725296); */
+	/* background-image: linear-gradient(to right, #367088, #31647d, #2d5871, #294c66, #25415a); */
+	
+	background-color:#56929f;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	padding: 2%;
+	transition: .2s ease-in;
+	cursor: pointer;
+	text-shadow: 0.5px 0.5px 2px #fff;
+}
+/* #login{
+	background-image: linear-gradient(to right, #42426f, #454571, #484873, #4b4b74, #4e4e76);
+} */
+
+#signup:hover{
+	background-image: linear-gradient(to right, #fffdfe, #fcf5fa, #f8edf8, #f1e6f7, #e8dff7, #e1daf7, #d9d5f8, #d0d0f8, #cbcbf8, #c6c6f8, #c1c1f8, #bcbcf8);
+	background-image: linear-gradient(to right bottom, #334151, #324355, #324459, #31465e, #304762);
+	transform: scale(1.05,1.05);
+	/* background-image: linear-gradient(to right, #f2ebf4, #f4f0f7, #f7f5fa, #fbfafd, #ffffff); */
+	/* background-color: #97bcc7; */
+	/* border: 1px #fff solid; */
+	box-shadow: 1.5px 1.5px 5px rgb(250, 255, 255);
+	color: #fff;
+}
+
+#login:hover{
+	background-image: linear-gradient(to right bottom, #eff5ff, #d2efff, #aaebff, #7de7f5);
+	background-image: linear-gradient(to right bottom, #253548, #26384d, #273a51, #283d56, #29405b);
+	transform: scale(1.05,1.05);
+	box-shadow: 3px 4px 5px rgb(41, 50, 51);
+	color: #fff;
+	/* border: 2px #fff solid; */
+	/* color: #000;
+	transform: scale(1.05,1.05);
+	box-shadow: 3px 2px 5px rgb(202, 234, 236); */
+	/* background-image: linear-gradient(160deg, #8ceabb 0%, #378f7b 100%); */
+}
+/* 
+#login:hover{
+	background-image: linear-gradient(to right, #692b4a, #7e2b54, #952a5e, #ac2766, #c3216e);
+	background-color :rgba(42, 65, 92, 0.78);
+	background-image: linear-gradient(to right bottom, #253548, #26384d, #273a51, #283d56, #29405b);
+	transform: scale(1.05,1.05);
+	box-shadow: 3px 4px 5px rgb(41, 50, 51);
+	color: #fff;
+} */
+.login{
+	height: 460px;
+	/* background: #dedeff; */
+	background-image: linear-gradient(to bottom, #ffffff, #f8f6ff, #f0eeff, #e7e6ff, #dedeff);
+	/* background-image: linear-gradient(to right bottom, #cacafd, #c6c6fc, #c3c3fb, #bfbff9, #bcbcf8); 
+	background-image: linear-gradient(to bottom, #fffdfe, #fcf5fa, #f8edf8, #f1e6f7, #e8dff7, #e1daf7, #d9d5f8, #d0d0f8, #cbcbf8, #c6c6f8, #c1c1f8, #bcbcf8); */
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login .span{
+	cursor: pointer;
+	color: #243b55;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login .label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup .label{
+	transform: scale(.6);
+}
+
+/* @media screen and (max-height: 600px) {
+	.main
+	{
+		width: 400px;
+		height: 395px;
+	}
+} */

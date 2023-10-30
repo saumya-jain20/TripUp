@@ -1,0 +1,127 @@
+.div{
+    background: #EDF3FD;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Raleway:ital@1&family=Roboto+Condensed:wght@300;400&display=swap');
+
+.ul{
+    list-style: none;
+    display: inline-flex;
+    padding: 8vh;
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+}
+
+.li{
+    margin-right: 2vw;
+}
+
+.rotate:active{
+    border-bottom: 2px solid #1F628E;
+}
+
+a{
+    text-decoration: none;
+}
+
+.rotate{
+    margin-right: 2vw;
+    font-size: 2.2vh;
+    font-style: normal;
+    font-weight: bold;
+    color: #1F628E;
+
+    /* transition-duration: 0.8s;
+    transition-property: transform; */
+    /* padding: 15px 20px; */
+    position: relative;
+}
+
+.rotate:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    /* transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); */
+}
+.rotate:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #1F628E;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    }
+.rotate:hover:after { 
+width: 100%; 
+left: 0; 
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+.link{
+    text-decoration: none;
+}
+
+input[type=checkbox]{
+    display: none;
+} 
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+@media (max-width: 900px) {
+    .rotate{
+        padding: 1vh;
+        margin-right: 10vh;
+        font-size: 2vh;
+    }
+    .menu { 
+        display:none;
+        /* position: absolute; */
+        text-align: center;
+    }
+       .menu .rotate:hover {
+        display: inline-block;
+        transition: 0.3s ease;
+       }
+      
+       input[type=checkbox]:checked ~ .menu{
+        display:flex;
+        flex-direction: column;
+        padding: 1vh;
+
+       }
+       .hamburger {
+        display: block;
+       }
+
+       .rotate{
+           max-width: 20px;
+       }
+
+       .rotate:hover:after { 
+        width: 220%; 
+        left: 0; 
+        }
+}

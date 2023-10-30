@@ -1,0 +1,9 @@
+.div{
+    clear: both;
+    background: hsl(201, 47%, 32%);
+    text-align: center;
+    padding: 5vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    overflow: auto;    
+}

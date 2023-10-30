@@ -1,0 +1,16 @@
+.main{
+    padding: 43.2vh;
+    /* padding: 47vh; */
+}
+body{
+    margin: 0;
+}
+
+.div{
+    background: url("./img/Bgg.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+

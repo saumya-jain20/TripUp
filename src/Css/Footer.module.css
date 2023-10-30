@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Raleway:ital@1&family=Roboto+Condensed:wght@300;400&display=swap');
+
+.div{
+    /* background: #C5D7E7; */
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: radial-gradient(97.06% 97.06% at 50% 2.94%, #C5D7E7 0%, rgba(197, 215, 231, 0.42) 100%);
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-bottom: 0.8vh;
+}
+
+.social{
+   padding: 1%; 
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 2%;
+}
+.icon{
+    margin-left: 2%;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.icon:hover{
+    cursor: pointer;
+     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.fot{
+    justify-content:end;
+    margin-top: 3.5vh;
+    margin-left: 2vh;
+}
+

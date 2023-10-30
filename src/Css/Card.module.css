@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Raleway:ital@1&family=Roboto+Condensed:wght@300;400&display=swap');
+
+.div{
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #EDF3FD;
+    margin: 3vh;
+    padding: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img{
+    width: 40vw;
+    height: 35vh;
+    border-radius:20px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.h1{
+    font-size: 4vh;
+    color: #2B5D77;
+}
+
+.p{
+    font-size: 4vh;
+    color: #2B5D77;
+}
